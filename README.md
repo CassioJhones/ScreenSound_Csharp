@@ -1,9 +1,7 @@
 # ScreenSound
 > programa em C# que permite registrar bandas, avaliar bandas, calcular a média das notas das bandas e mostrar as bandas registradas em um menu de console.
 
-![Running Code](https://github.com/CassioJhones/ScreenSound_Csharp/assets/56178855/051c13df-329d-4cef-af2f-76c3a68437e6)
-
-<img src="https://github.com/CassioJhones/ScreenSound_Csharp/assets/56178855/051c13df-329d-4cef-af2f-76c3a68437e6" alt="Code Running" width="500px">
+<img src="https://github.com/CassioJhones/ScreenSound_Csharp/assets/56178855/1b14c821-8e40-4793-af3b-09ca2b8dd18a" width="600px">
 
 ### Visão Geral
 Aplicação de console em C# que permite gerenciar informações sobre bandas. Fornece as seguintes funcionalidades:
@@ -37,15 +35,6 @@ Aplicação de console em C# que permite gerenciar informações sobre bandas. F
 - Permite ao usuário atribuir uma nota a uma banda registrada.
 - Adiciona a nota à lista de notas da banda.
 
-#### `ExibirTitulosOpcoes(string titulo)`
-- Exibe um título formatado no console com base no comprimento do título.
-
 ### Estrutura de Dados
 - `Dictionary<string, List<int>> bandasRegistradas`: Armazena as bandas registradas como chaves e suas notas como valores em uma lista.
 
-### Exemplo de Uso
-```csharp
-bandasRegistradas.Add("LinkinPark", new List<int> { 10, 08, 06, 09 });
-bandasRegistradas.Add("AC/DC", new List<int>());
-ExibirOpcoesDoMenu();
-```
